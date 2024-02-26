@@ -49,12 +49,12 @@ button {
 
 .header .div {
   display: flex;
-  justify-content: space-between;
 }
 
 .header .div .nav {
   display: flex;
   align-items: center;
+  margin-right: auto;
 }
 
 .header .div .nav .logo {
@@ -75,6 +75,7 @@ button {
 .header .div .nav .menu {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .header .div .nav .menu .link {
@@ -83,7 +84,6 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding: 24px 0;
 }
 
 .header .div .nav .menu .link:hover,
@@ -95,6 +95,7 @@ button {
   font-style: normal;
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .header .div .address .link {
@@ -211,7 +212,6 @@ button {
 
 .team .container .cards .card {
   background-color: #ffffff;
-  width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 
