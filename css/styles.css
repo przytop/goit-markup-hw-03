@@ -29,6 +29,7 @@ img {
 
 .header .div {
   display: flex;
+  justify-content: space-between;
 }
 
 .header .div .nav {
@@ -100,6 +101,8 @@ img {
   color: #ffffff;
   letter-spacing: 0.02em;
   max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 
 .top .container .button {
@@ -116,6 +119,7 @@ img {
   background-color: #4d5ae5;
   border-radius: 4px;
   cursor: pointer;
+  margin: 0 auto;
 }
 
 .top .container .button:hover,
@@ -137,7 +141,7 @@ img {
 }
 
 .features .cards .card {
-  flex-basis: calc((100% - 3 * 24px) / 4);
+  w: calc((100% - 3 * 24px) / 4);
 }
 
 .features .cards .card .title {
@@ -187,7 +191,6 @@ img {
 }
 
 .team .container .cards .card .info .title {
-  text-align: center;
   margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
@@ -197,7 +200,6 @@ img {
 }
 
 .team .container .cards .card .info .text {
-  text-align: center;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
