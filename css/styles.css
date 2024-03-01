@@ -194,7 +194,7 @@ button {
   padding: 120px 0;
 }
 
-.team .container .title {
+.team .container .team-title {
   margin-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
@@ -220,16 +220,17 @@ button {
   padding: 32px 0px;
 }
 
-.team .container .cards .card .info .title {
+.team .container .cards .card .info .info-title {
   margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
 }
 
-.team .container .cards .card .info .text {
+.team .container .cards .card .info .info-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
@@ -241,7 +242,7 @@ button {
   padding-bottom: 120px;
 }
 
-.portfolio .container .title {
+.portfolio .container .portfolio-title {
   margin-bottom: 72px;
   font-size: 36px;
   font-weight: 700;
@@ -269,7 +270,7 @@ button {
   border-top: none;
 }
 
-.portfolio .container .cards .card .title {
+.portfolio .container .cards .card .info .info-title {
   margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
@@ -278,7 +279,7 @@ button {
   color: #2e2f42;
 }
 
-.portfolio .container .cards .card .text {
+.portfolio .container .cards .card .info .info-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
